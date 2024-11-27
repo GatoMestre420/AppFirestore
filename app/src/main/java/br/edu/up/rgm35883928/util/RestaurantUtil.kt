@@ -2,11 +2,12 @@ package br.edu.up.rgm35883928.util
 
 
 import android.content.Context
-import br.edu.up.rgm35883928.R
+import com.google.firebase.example.fireeats.R
 import br.edu.up.rgm35883928.model.Restaurant
 import java.util.Arrays
 import java.util.Locale
 import java.util.Random
+
 
 
 /**

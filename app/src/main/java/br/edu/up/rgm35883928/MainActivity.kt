@@ -4,7 +4,7 @@ package br.edu.up.rgm35883928
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.Navigation
-
+import com.google.firebase.example.fireeats.R
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
