@@ -1,6 +1,7 @@
 package br.edu.up.rgm35883928
 
 
+import FilterDialogFragment
 import android.app.Activity
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -23,7 +24,7 @@ import com.firebase.ui.auth.FirebaseAuthUIActivityResultContract
 import com.firebase.ui.auth.data.model.FirebaseAuthUIAuthenticationResult
 import com.google.android.material.snackbar.Snackbar
 import com.google.firebase.auth.ktx.auth
-import br.edu.up.rgm35883928.databinding.FragmentMainBinding
+import com.google.firebase.example.fireeats.databinding.FragmentMainBinding
 import br.edu.up.rgm35883928.adapter.RestaurantAdapter
 import br.edu.up.rgm35883928.viewmodel.MainActivityViewModel
 import com.google.firebase.firestore.DocumentSnapshot
@@ -32,6 +33,8 @@ import com.google.firebase.firestore.FirebaseFirestoreException
 import com.google.firebase.firestore.Query
 import com.google.firebase.firestore.ktx.firestore
 import com.google.firebase.ktx.Firebase
+import com.google.firebase.example.fireeats.R
+
 
 class MainFragment : Fragment(),
     FilterDialogFragment.FilterListener,

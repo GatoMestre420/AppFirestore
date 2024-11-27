@@ -1,17 +1,14 @@
-package br.edu.up.rgm35883928
-
-
 import android.content.Context
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.DialogFragment
-import br.edu.up.rgm35883928.databinding.DialogFiltersBinding
-//import com.google.firebase.example.fireeats.databinding.DialogFiltersBinding
+import br.edu.up.rgm35883928.Filters
+import com.google.firebase.example.fireeats.databinding.DialogFiltersBinding
 import br.edu.up.rgm35883928.model.Restaurant
 import com.google.firebase.firestore.Query
-
+import com.google.firebase.example.fireeats.R
 
 /**
  * Dialog Fragment containing filter form.
@@ -132,8 +129,8 @@ class FilterDialogFragment : DialogFragment() {
     override fun onResume() {
         super.onResume()
         dialog?.window?.setLayout(
-                ViewGroup.LayoutParams.MATCH_PARENT,
-                ViewGroup.LayoutParams.WRAP_CONTENT)
+            ViewGroup.LayoutParams.MATCH_PARENT,
+            ViewGroup.LayoutParams.WRAP_CONTENT)
     }
 
     private fun onSearchClicked() {

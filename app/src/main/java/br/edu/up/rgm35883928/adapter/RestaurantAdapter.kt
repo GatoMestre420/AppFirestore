@@ -3,9 +3,10 @@ package br.edu.up.rgm35883928.adapter
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import br.edu.up.rgm35883928.R
-import br.edu.up.rgm35883928.databinding.ItemRestaurantBinding
+import com.google.firebase.example.fireeats.databinding.ItemRestaurantBinding
 import com.bumptech.glide.Glide
+import com.google.firebase.example.fireeats.R
+
 
 import br.edu.up.rgm35883928.model.Restaurant
 import br.edu.up.rgm35883928.util.RestaurantUtil

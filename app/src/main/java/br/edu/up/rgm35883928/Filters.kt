@@ -5,6 +5,7 @@ import android.text.TextUtils
 import br.edu.up.rgm35883928.model.Restaurant
 import br.edu.up.rgm35883928.util.RestaurantUtil
 import com.google.firebase.firestore.Query
+import com.google.firebase.example.fireeats.R
 
 
 /**

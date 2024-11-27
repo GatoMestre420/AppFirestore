@@ -3,7 +3,7 @@ package br.edu.up.rgm35883928.adapter
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import br.edu.up.rgm35883928.databinding.ItemRatingBinding
+import com.google.firebase.example.fireeats.databinding.ItemRatingBinding
 import br.edu.up.rgm35883928.model.Rating
 import com.google.firebase.firestore.Query
 import com.google.firebase.firestore.ktx.toObject
