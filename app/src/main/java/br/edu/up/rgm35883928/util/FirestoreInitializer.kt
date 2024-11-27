@@ -23,6 +23,7 @@ class FirestoreInitializer : Initializer<FirebaseFirestore> {
         return firestore
     }
 
+
     // No dependencies on other libraries
     override fun dependencies(): MutableList<Class<out Initializer<*>>> = mutableListOf()
 }
